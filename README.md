@@ -3,7 +3,7 @@
 
 <img src="./img/logo.png/" width="300px" alt="">
 
-<img src="<img src="./img/logo.png/" width="300px" alt="">" width="300px" alt="">
+
 
 ### Ajustes e melhorias
 
