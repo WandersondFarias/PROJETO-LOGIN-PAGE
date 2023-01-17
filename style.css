@@ -12,62 +12,6 @@ body {
 
 }
 
-    
-
-input {
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #FFFFFF;
-    border: 1px solid #AE7CB4;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    width: 360px;
-    height: 60px;
-    padding-left: 10px;
-    border: transparent;
-
-}
-
-    
-
-a {
-    display: block;
-    margin-top: auto;
-    text-align: center;
-    padding-left: 250px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
-    height: 60px;
-    background:  rgb(255,105,180);
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 20px;
-    color: white;
-    
-}
-
-button:hover{
-    background:  rgb(255,105,180);
-    opacity: 0.3;
-    transition: .9s;
-    
-}
-    
-
-
-
 
 
 
@@ -111,6 +55,7 @@ a {
     margin-top: 10px;
 }
 
+
 button {
     display: block;
     margin-left: auto;
@@ -131,7 +76,47 @@ button:hover{
     transition: .9s;
     
 }
+
+.redes-sociais {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    gap: 10px;
+    position: absolute;
+    top:550px;
+    left: 250px;
+    display: center;
+   
+    
+    
+   
+}
+
+.redes-sociais li {
+    align-items: center;
+    text-align: center;
+    width: 10px;
+   padding-left: 60px;
+   padding-right: 50px;
+    
     
 
+}
 
+li {
+    list-style-type: none;
+    padding-left: 5px;
+    
+}
 
+.rede-sociais {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+}
